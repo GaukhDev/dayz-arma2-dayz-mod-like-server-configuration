@@ -1,0 +1,417 @@
+{
+    "m_Version": 5,
+    "EnableStatusTab": 0,
+    "EnablePartyTab": 0,
+    "EnableServerInfoTab": 1,
+    "EnableServerRulesTab": 1,
+    "EnableTerritoryTab": 1,
+    "EnableBookMenu": 1,
+    "CreateBookmarks": 1,
+    "ShowHaBStats": 1,
+    "RuleCategories": [
+        {
+            "CategoryName": "General",
+            "Rules": [
+                {
+                    "RuleParagraph": "1.1",
+                    "RuleText": "Serious insults, discrimination, extremist, racist, sexist and toxic messages are not allowed. Same applies to voice chat. Stay civil and respectful."
+                },
+                {
+                    "RuleParagraph": "1.2",
+                    "RuleText": "Keep politics out of chat."
+                },
+                {
+                    "RuleParagraph": "1.3",
+                    "RuleText": "Advertising or promoting your own or other stuff is not tolerated."
+                },
+                {
+                    "RuleParagraph": "1.4",
+                    "RuleText": "Do not play with multiple accounts on this server, this results in a ban."
+                },
+                {
+                    "RuleParagraph": "1.5",
+                    "RuleText": "Mods/supporters and admins are free to change these rules anytime. Respect their decisions."
+                }
+            ]
+        },
+        {
+            "CategoryName": "Server",
+            "Rules": [
+                {
+                    "RuleParagraph": "2.1",
+                    "RuleText": "Cheating, exploting and glitching is strictly forbidden."
+                },
+                {
+                    "RuleParagraph": "2.2",
+                    "RuleText": "Serious insults, discrimination, extremist, racist, sexist and toxic messages are not allowed. Same applies to voice chat. Stay civil and respectful."
+                },
+                {
+                    "RuleParagraph": "2.3",
+                    "RuleText": "Global chat language is English only."
+                },
+                {
+                    "RuleParagraph": "2.4",
+                    "RuleText": "Using vehicles are on your own risk. If you damage them or die, we won't do anything."
+                }
+            ]
+        },
+        {
+            "CategoryName": "PvP",
+            "Rules": [
+                {
+                    "RuleParagraph": "3.1",
+                    "RuleText": "Combat logging, if noticed and if there is proof, will be punished."
+                },
+                {
+                    "RuleParagraph": "3.2",
+                    "RuleText": "It's only allowed to besiege a base for 1 hour. After that and with a stalemate, the mission should be cancelled and you should retreat."
+                },
+                {
+                    "RuleParagraph": "3.3",
+                    "RuleText": "Shooting from a base into a military or medic area is forbidden, unless you are getting shot at first. In this case video proof is needed."
+                },
+                {
+                    "RuleParagraph": "3.4",
+                    "RuleText": "Do not abuse game mechanics/glitches."
+                },
+                {
+                    "RuleParagraph": "3.5",
+                    "RuleText": "Do not take a player hostage for sole fun and annoyance. Release a hostage as soon as possible."
+                }
+            ]
+        },
+        {
+            "CategoryName": "Base Building",
+            "Rules": [
+                {
+                    "RuleParagraph": "4.1",
+                    "RuleText": "Do not build at military, medic and police buildings. Take a distance of 1000 coordinate measurements to a military area. Open the map to check the distance on the bottom left."
+                },
+                {
+                    "RuleParagraph": "4.2",
+                    "RuleText": "Any legit base will require a flag pole and a flag. Any base which does not have any of that will be removed after a week. Please report bases that are NOT legit on the Discord server."
+                },
+                {
+                    "RuleParagraph": "4.3",
+                    "RuleText": "Floating structures will be removed."
+                },
+                {
+                    "RuleParagraph": "4.4",
+                    "RuleText": "Make sure your base is raid proof and furniture is inside the base and not peeking out."
+                }
+            ]
+        },
+        {
+            "CategoryName": "Base Raid",
+            "Rules": [
+                {
+                    "RuleParagraph": "5.1",
+                    "RuleText": "A base raid MUST be recorded on video. If anything suspicious is happening which can't be proven, you might get punished."
+                },
+                {
+                    "RuleParagraph": "5.2",
+                    "RuleText": "You are not allowed to destroy a flagpole and flag."
+                },
+                {
+                    "RuleParagraph": "5.3",
+                    "RuleText": "It's only allowed to besiege a base for 1 hour. After that and with a stalemate, the mission should be cancelled and you should retreat."
+                },
+                {
+                    "RuleParagraph": "5.4",
+                    "RuleText": "Do not take advantage of openings which are not normal for a human being."
+                },
+                {
+                    "RuleParagraph": "5.5",
+                    "RuleText": "No floating objects."
+                },
+                {
+                    "RuleParagraph": "5.6",
+                    "RuleText": "Floating structures will be removed."
+                },
+                {
+                    "RuleParagraph": "5.7",
+                    "RuleText": "Make sure your base is raid proof and furniture is inside the base and not peeking out."
+                }
+            ]
+        }
+    ],
+    "DisplayServerSettingsInServerInfoTab": 1,
+    "SettingCategories": [],
+    "Links": [
+        {
+            "Name": "Discord",
+            "URL": "https://discord.com/invite/AeTgQzerNY",
+            "IconName": "Discord",
+            "IconColor": -9270822
+        }
+    ],
+    "Descriptions": [
+        {
+            "CategoryName": "General Info",
+            "Descriptions": [
+                {
+                    "DescriptionText": "This server's goal is to deliver the ArmA 2 DayZ Mod feeling as close as possible."
+                }
+            ]
+        },
+        {
+            "CategoryName": "Mod Info",
+            "Descriptions": [
+                {
+                    "DescriptionText": "Highly adjusted loot to more resemble what the DayZ Mod had."
+                },
+                {
+                    "DescriptionText": "Old zombie sounds and random ambient music just like the Mod days for the nostalgia kick."
+                },
+                {
+                    "DescriptionText": "Morphine fixes legs instantly."
+                },
+                {
+                    "DescriptionText": "There are no blood types, blood can be given to anyone with an IV Starter Kit."
+                },
+                {
+                    "DescriptionText": "Saline bags regenerate health."
+                },
+                {
+                    "DescriptionText": "Shoes and gloves do not wear off. You do not get hurt by walking bare foot or sliding down ladders."
+                },
+                {
+                    "DescriptionText": "There is no clothing damage."
+                },
+                {
+                    "DescriptionText": "Morphine fixes legs instantly."
+                },
+                {
+                    "DescriptionText": "There are better snap sounds when a bullet passes by."
+                },
+                {
+                    "DescriptionText": "Sounds when moving items in inventory."
+                },
+                {
+                    "DescriptionText": "ArmA 2 clothing and weapons and M200 Cheytac!"
+                },
+                {
+                    "DescriptionText": "Legacy gunplay is enabled which brings back weapon inertia."
+                },
+                {
+                    "DescriptionText": "If you enter any new location there will be a location text appearing."
+                },
+                {
+                    "DescriptionText": "Suppressors are way more durable."
+                },
+                {
+                    "DescriptionText": "Zombies cannot climb anymore."
+                },
+                {
+                    "DescriptionText": "Better base building and fortifications."
+                },
+                {
+                    "DescriptionText": "Tents are indestructible."
+                },
+                {
+                    "DescriptionText": "Weapons do have more realistic durability."
+                },
+                {
+                    "DescriptionText": "Item sizes are tweaked to be smaller."
+                },
+                {
+                    "DescriptionText": "No moaning noise when jumping."
+                },
+                {
+                    "DescriptionText": "You can talk to anyone across the server using side chat."
+                },
+                {
+                    "DescriptionText": "Build anywhere is enabled but watch the rules."
+                },
+                {
+                    "DescriptionText": "Repairing instantly makes the item pristine."
+                },
+                {
+                    "DescriptionText": "Codelocks for securing your base."
+                },
+                {
+                    "DescriptionText": "Base building plus mod."
+                },
+                {
+                    "DescriptionText": "Saline bags regenerate health."
+                },
+                {
+                    "DescriptionText": "Weapons do have their real names back."
+                },
+                {
+                    "DescriptionText": "Night vision is like the ArmA 2 one."
+                },
+                {
+                    "DescriptionText": "Night vision can be used with optics."
+                },
+                {
+                    "DescriptionText": "There is no real clothing to be found. You can find camo military clothing and you can find Ghillie Suit packages which can be opened with a sharp item."
+                }
+            ]
+        }
+    ],
+    "CraftingCategories": [
+        {
+            "CategoryName": "Accessories",
+            "Results": [
+                "armband_",
+                "armband_white"
+            ]
+        },
+        {
+            "CategoryName": "Backpacks",
+            "Results": [
+                "courierbag",
+                "furcourierbag",
+                "furimprovisedbag",
+                "improvisedbag",
+                "leathersack_brown"
+            ]
+        },
+        {
+            "CategoryName": "Base-Building",
+            "Results": [
+                "expansionbarbedwirekit",
+                "fencekit",
+                "expansionfloorkit",
+                "expansionhelipadkit",
+                "expansionhescokit",
+                "expansionrampkit",
+                "shelterkit",
+                "expansionstairkit",
+                "territoryflagkit",
+                "expansionwallkit",
+                "watchtowerkit"
+            ]
+        },
+        {
+            "CategoryName": "Camouflage",
+            "Results": [
+                "camonet",
+                "ghillieatt_tan",
+                "ghillieatt_mossy",
+                "ghillieatt_woodland",
+                "ghilliebushrag_tan",
+                "ghilliebushrag_mossy",
+                "ghilliebushrag_woodland",
+                "ghilliehood_tan",
+                "ghilliehood_mossy",
+                "ghilliehood_woodland",
+                "ghilliesuit_tan",
+                "ghilliesuit_mossy",
+                "ghilliesuit_woodland",
+                "ghillietop_tan",
+                "ghillietop_mossy",
+                "ghillietop_woodland"
+            ]
+        },
+        {
+            "CategoryName": "Cooking",
+            "Results": [
+                "fireplace",
+                "firewood",
+                "handdrillkit"
+            ]
+        },
+        {
+            "CategoryName": "Fishing",
+            "Results": [
+                "bait",
+                "bonebait",
+                "bonehook",
+                "improvisedfishingrod"
+            ]
+        },
+        {
+            "CategoryName": "Food",
+            "Results": [
+                "carpfilletmeat",
+                "mackerelfilletmeat",
+                "expansionmilkbottle",
+                "potato",
+                "slicedpumpkin"
+            ]
+        },
+        {
+            "CategoryName": "Horticulture",
+            "Results": [
+                "pepperseeds",
+                "pumpkinseeds",
+                "tomatoseeds",
+                "zucchiniseeds"
+            ]
+        },
+        {
+            "CategoryName": "Lights",
+            "Results": [
+                "longtorch",
+                "torch"
+            ]
+        },
+        {
+            "CategoryName": "Medical Supplies",
+            "Results": [
+                "bloodbagiv",
+                "salinebagiv",
+                "splint"
+            ]
+        },
+        {
+            "CategoryName": "Melee Weapons",
+            "Results": [
+                "nailedbaseballbat",
+                "stoneknife"
+            ]
+        },
+        {
+            "CategoryName": "Storage",
+            "Results": [
+                "woodencrate"
+            ]
+        },
+        {
+            "CategoryName": "Supplies",
+            "Results": [
+                "boarpelt",
+                "burlapsack",
+                "burlapstrip",
+                "longwoodenstick",
+                "expansionlumber1",
+                "expansionlumber1_5",
+                "expansionlumber3",
+                "nails",
+                "netting",
+                "rag",
+                "rope",
+                "sharpwoodenstick",
+                "smallstone",
+                "tannedleather",
+                "woodenplank",
+                "woodenstick"
+            ]
+        },
+        {
+            "CategoryName": "Weapon Attachments",
+            "Results": [
+                "improvisedsuppressor"
+            ]
+        },
+        {
+            "CategoryName": "#STR_BLThings",
+            "Results": [
+                "bl_old_crate",
+                "bl_rain_collector_kit",
+                "bl_stove_barrel_kit",
+                "bl_special_item_kit",
+                "bl_pallet_table_kit",
+                "bl_pallet_sofa_kit",
+                "bl_pallet_cabinet_kit",
+                "bl_pallet_bed_kit",
+                "bl_pallet_box_kit",
+                "bl_pallet_frame_solo",
+                "bl_pallet"
+            ]
+        }
+    ],
+    "EnableCraftingRecipesTab": 0
+}

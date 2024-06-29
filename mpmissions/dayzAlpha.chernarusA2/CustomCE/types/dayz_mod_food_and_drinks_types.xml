@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- A2 Other -->
+<types>
+	<type name="BLB_CAN_BADGUY">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_BONEBOY">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_CORN">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_CURGON">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_DEMON">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>18</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_FRAGGLE">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_GRIFF">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_HERPY">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_ORLOK">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_POWELL">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_CAN_TYLER">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="BLB_SodaCan_CLAYS">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_FRANKA">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_MIKHAIL">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_LIRIK">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_LVG">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_MTNGREEN">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_MZLY">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_PEPPSY">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_R4Z0R">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_RABBIT">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_SACRITE">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="BLB_SodaCan_SMASHT">
+		<nominal>17</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+</types>

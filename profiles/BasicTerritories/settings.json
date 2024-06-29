@@ -1,0 +1,61 @@
+{
+    "ConfigVersion": "2",
+    "WhiteList": [
+        "Paper",
+        "LargeTent",
+        "CarTent",
+        "MediumTent",
+        "MediumTent_Green",
+        "MediumTent_Orange",
+        "PartyTent",
+        "PartyTent_Blue",
+        "PartyTent_Brown",
+        "PartyTent_Lunapark",
+        "UndergroundStash",
+        "Fireplace"
+    ],
+    "ServerAdmins": [
+        "GUID"
+    ],
+    "TentRadius": 6.0,
+    "TentCESpawnLifeTime": 5600.0,
+    "BuildBonusSledgeDamage": 0.0,
+    "RequireTerritory": 1,
+    "PublicPermissions": 256,
+    "MemberPermissions": 446,
+    "Notifications": 1,
+    "NoBuildZones": [
+        {
+            "Name": "NWAF",
+            "X": 4440.0,
+            "Z": 9140.0,
+            "R": 400.0,
+            "DrawOnMap": 0
+        },
+        {
+            "Name": "NEAF",
+            "X": 12120.0,
+            "Z": 11550.0,
+            "R": 300.0,
+            "DrawOnMap": 0
+        }
+    ],
+    "NoBuildZoneMessage": " You can't build here, you are trying to build in a designated no build zone",
+    "TerritoryConflictMessage": " Sorry you can't build a territory this close to another territory",
+    "WithinTerritoryWarning": " Sorry you can't build this close to an enemy territory",
+    "DeSpawnWarningMessage": " You are building outside a territory, $ITEMNAME$ will despawn in $LIFETIME$ without a Territory",
+    "BuildPartWarningMessage": " Sorry, you don't have permissions to build in this area.",
+    "DismantleWarningMessage": " Sorry, you can't dismantle anything this close to a raised flag",
+    "LowerFlagWarningMessage": " Sorry, you do not have permissions to lower the flag in this territory",
+    "TerritoryRequiredWarningMessage": " Sorry, you are required to build a territory to be able to build",
+    "FlagRefreshFrequency": 432000,
+    "KitLifeTimes": {
+        "watchtowerkit": 3888000,
+        "fencekit": 3888000,
+        "bbp_": 3888000,
+        "msp_": 3888000,
+        "rag_baseitems": 3888000,
+        "R22R_": 3888000,
+        "mmg_": 3888000
+    }
+}

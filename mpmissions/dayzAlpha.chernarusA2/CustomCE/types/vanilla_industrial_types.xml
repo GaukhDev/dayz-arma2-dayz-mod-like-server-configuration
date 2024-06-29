@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+    <type name="BarrelHoles_Blue">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+        <category name="tools"/>
+    </type>
+    <type name="BarrelHoles_Green">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+        <category name="tools"/>
+    </type>
+    <type name="BarrelHoles_Red">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+        <category name="tools"/>
+    </type>
+    <type name="BarrelHoles_Yellow">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+        <category name="tools"/>
+    </type>
+    <type name="Barrel_Blue">
+		<nominal>10</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>7200</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Barrel_Green">
+		<nominal>10</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>7200</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Barrel_Red">
+		<nominal>10</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>7200</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Barrel_Yellow">
+		<nominal>10</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>7200</restock>
+		<min>7</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="BatteryCharger">
+		<nominal>7</nominal>
+		<lifetime>86400</lifetime>
+		<restock>3600</restock>
+		<min>5</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="CableReel">
+		<nominal>15</nominal>
+		<lifetime>604800</lifetime>
+		<restock>600</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="CanisterGasoline">
+		<nominal>80</nominal>
+		<lifetime>28800</lifetime>
+		<restock>600</restock>
+		<min>70</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="CarBattery">
+		<nominal>50</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1200</restock>
+		<min>40</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="CarRadiator">
+		<nominal>50</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1200</restock>
+		<min>40</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Fabric">
+		<nominal>70</nominal>
+		<lifetime>28800</lifetime>
+		<restock>300</restock>
+		<min>50</min>
+		<quantmin>30</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="HeadlightH7">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="tools"/>
+    </type>
+    <type name="HeadlightH7_Box">
+		<nominal>50</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>40</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Headtorch_Black">
+		<nominal>75</nominal>
+		<lifetime>28800</lifetime>
+		<restock>600</restock>
+		<min>50</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="Headtorch_Grey">
+		<nominal>75</nominal>
+		<lifetime>28800</lifetime>
+		<restock>600</restock>
+		<min>50</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="LargeGasCanister">
+		<nominal>20</nominal>
+		<lifetime>14400</lifetime>
+		<restock>1800</restock>
+		<min>15</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="MediumGasCanister">
+        <nominal>40</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="MetalPlate">
+		<nominal>50</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>40</min>
+		<quantmin>10</quantmin>
+		<quantmax>60</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="MetalWire">
+		<nominal>90</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>70</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Nail">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="tools"/>
+    </type>
+    <type name="NailBox">
+		<nominal>75</nominal>
+		<lifetime>14400</lifetime>
+		<restock>300</restock>
+		<min>60</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Netting">
+		<nominal>40</nominal>
+		<lifetime>14400</lifetime>
+		<restock>300</restock>
+		<min>30</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+        <usage name="Coast"/>
+    </type>
+    <type name="PowerGenerator">
+		<nominal>20</nominal>
+		<lifetime>604800</lifetime>
+		<restock>1200</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="SmallGasCanister">
+		<nominal>30</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>20</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="SparkPlug">
+		<nominal>125</nominal>
+		<lifetime>14400</lifetime>
+		<restock>1200</restock>
+		<min>100</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="GlowPlug">
+		<nominal>30</nominal>
+		<lifetime>14400</lifetime>
+		<restock>1200</restock>
+		<min>20</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="Spotlight">
+		<nominal>10</nominal>
+		<lifetime>604800</lifetime>
+		<restock>3600</restock>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="TruckBattery">
+		<nominal>30</nominal>
+		<lifetime>28800</lifetime>
+		<restock>3600</restock>
+		<min>20</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+</types>

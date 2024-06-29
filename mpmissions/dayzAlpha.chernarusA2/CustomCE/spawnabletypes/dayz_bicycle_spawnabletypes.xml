@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<damage min="0.47" max="0.95" />
+	<!--Example Damaged Ruind only<damage min="0.9" max="1.0" /> Pristine(100-71) Worn(70-41) Damaged(40-21) BadlyDamaged(20-1) -->
+	<!-- Pristine(0.00-0.29) Worn(0.30-0.59) Damaged(0.60-0.79) BadlyDamaged(0.80-0.99) -->
+	<type name="Old_Bike">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_White">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_Red">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_Green">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_Blue">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="Old_Bike_Pink">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="bicycle_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="Lady_Bicycle">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="ladybicycle_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ladybicycle_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="Lady_Bicycle_Purple">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="ladybicycle_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ladybicycle_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="Old_BikeArma">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="Oldbike_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Oldbike_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="MMTArma">
+		<damage min="0.29" max="1.0" />
+		<attachments chance="1.00">
+			<item name="MMT_wheel" chance="0.99" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MMT_wheel" chance="0.99" />
+		</attachments>
+	</type>
+	<type name="bicycle_wheel" />
+	<type name="ladybicycle_wheel" />
+	<type name="ItemOld_Bike" />
+	<type name="ItemOld_Bike_White" />
+	<type name="ItemOld_Bike_Red" />
+	<type name="ItemOld_Bike_Green" />
+	<type name="ItemOld_Bike_Blue" />
+	<type name="ItemOld_Bike_Pink" />
+	<type name="ItemLady_Bicycle" />
+	<type name="ItemLady_Bicycle_Purple" />
+	<type name="ItemOld_BikeArma" />
+	<type name="ItemMMTArma" />
+	<type name="Oldbike_wheel" />
+	<type name="MMT_wheel" />
+</spawnabletypes>

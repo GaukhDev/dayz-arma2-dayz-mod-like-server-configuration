@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--  ___________ YOU CAN FIND DETAILED INSTRUCTIONS in PvZmoD_CustomisableZombies_HELP.txt file ___________  -->
+	
+<types>
+	<!--________________ NEW CLASS FROM OTHER ZOMBIE MODS (have to be before the vanilla classes) ______________-->
+	
+	<!-- Add new zombie class here ! -->
+	
+	<!--______________________________ DAYZ VANILLA ZOMBIE CLASSES ____________________________________________-->
+	
+	<!-- Weak but Fast --> 
+
+	<!--_______________________________________ EXAMPLES _____________________________________________________-->
+	
+	<type name="Example_WALKINGDEAD_HeadShot">					<!-- WALKINGDEAD_HEADSHOT Example (Night values are "normal zombies" ones to compare changes ) -->
+        <Health_Points				Day="10000"	Night="100"/> 	<!-- Health increased -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Melees		Day="10.0" 	Night="1.0"/> 	<!-- Melee resistance increased to avoid one shot with fists -->
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
+		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/> 	<!-- Decimal (Ratio) [0.0 to 2.0] -->
+        <Resistance_to_HeadShots	Day="0.001" Night="1.0"/>	<!-- Headshot resistance decrease -->
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>	
+		<Move_Speed_Max				Day="1.3" 	Night="3.0"/>	<!-- Max speed decreased to walk -->
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [-0.5 to 0.5 (0.0 to disable)] -->
+		<Animation_Type				Day="-9" 	Night="-9"/>	<!-- Integer [0, 1, 2, 3 or -9 (-9: random)] -->
+        <Chance_To_Spawn_Crawling	Day="-1.0" 	Night="0.0"/>	<!-- Never crawl -->
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="0.1" LightAttack_Blocked="0.1" HeavyAttack_NotBlocked="0.1" HeavyAttack_Blocked="0.1" NightRatio="1.0"/>
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="0.8" WithBloodyHands="0.5" WithSpecialMask="0.25" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>		<!-- Integer [0:Deactivated or 1:Activated or 2:Activated even if player is not on an obstacle] -->
+    </type>
+	
+	<type name="Example_VANILLA_Config_for_VANILLA_Zombies">	<!-- Example to use if you want to keep vanilla zombies characteristics -->
+        <Health_Points				Day="100" 	Night="100"/>
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/> 	
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
+		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/> 	<!-- Decimal (Ratio) [0.0 to 2.0] -->
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [-0.5 to 0.5 (0.0 to disable)] -->
+		<Animation_Type				Day="-9" 	Night="-9"/>	<!-- Integer [0, 1, 2, 3 or -9 (-9: random)] -->
+        <Chance_To_Spawn_Crawling	Day="0.15" 	Night="0.6"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="0"		Night="0"/>
+ 		<Immune_To_MultiHit 		Day="1"		Night="1"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="0.1" LightAttack_Blocked="0.1" HeavyAttack_NotBlocked="0.1" HeavyAttack_Blocked="0.1" NightRatio="1.0"/>
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="0.8" WithBloodyHands="0.5" WithSpecialMask="0.25" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>		<!-- Integer [0:Deactivated or 1:Activated or 2:Activated even if player is not on an obstacle] -->
+    </type>
+	
+	<type name="Example_OTHER_MOD_Zombies_whith_their_VANILLA_Config">	<!-- Example to use if you want to add zombies from other mod and keep the health of the mod ... -->
+        <Health_Points				Day="-1" 	Night="-1"/>
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/> 	
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
+		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/> 	<!-- Decimal (Ratio) [0.0 to 2.0] -->
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [-0.5 to 0.5 (0.0 to disable)] -->
+		<Animation_Type				Day="-9" 	Night="-9"/>	<!-- Integer [0, 1, 2, 3 or -9 (-9: random)] -->
+        <Chance_To_Spawn_Crawling	Day="0.15" 	Night="0.6"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="0"		Night="0"/>
+ 		<Immune_To_MultiHit 		Day="1"		Night="1"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="0.1" LightAttack_Blocked="0.1" HeavyAttack_NotBlocked="0.1" HeavyAttack_Blocked="0.1" NightRatio="1.0"/>
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="0.8" WithBloodyHands="0.5" WithSpecialMask="0.25" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>		<!-- Integer [0:Deactivated or 1:Activated or 2:Activated even if player is not on an obstacle] -->
+    </type>
+	
+	<type name="Example_USE_DEFAULT_Config_values">				<!-- When you want to "skip" a characteristics and use the default one replace this characteristic by "-99" -->
+        <Health_Points				Day="-99" 	Night="-99"/>
+        <Resistance_to_Bullets		Day="-99" 	Night="-99"/> 	
+        <Resistance_to_Melees		Day="-99" 	Night="-99"/> 	
+        <Resistance_to_HeavyAttack	Day="-99" 	Night="-99"/>	
+        <Resistance_to_Vehicles		Day="-99" 	Night="-99"/> 	
+        <Resistance_to_Explosions	Day="-99" 	Night="-99"/>	
+		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/> 	<!-- Decimal (Ratio) [0.0 to 2.0] -->
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>	
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
+		<Special_HeadShot_Weapons	Day="-99"	Night="-99"/>
+        <Move_Speed_Min				Day="-99" 	Night="-99"/>
+		<Move_Speed_Max				Day="-99" 	Night="-99"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [-0.5 to 0.5 (0.0 to disable)] -->
+		<Animation_Type				Day="-9" 	Night="-9"/>	<!-- Integer [0, 1, 2, 3 or -9 (-9: random)] -->
+        <Chance_To_Spawn_Crawling	Day="-99" 	Night="-99"/>
+		<Can_Dodge					Day="-99" 	Night="-99"/>
+ 		<Hit_Players_On_Obstacles 	Day="-99"	Night="-99"/>
+ 		<Immune_To_MultiHit 		Day="-99"	Night="-99"/>
+ 		<Attack_Speed 				Day="-99"	Night="-99"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="-99" LightAttack_Blocked="-99" HeavyAttack_NotBlocked="-99" HeavyAttack_Blocked="-99" NightRatio="-99"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="-99" LightAttack_Blocked="-99" HeavyAttack_NotBlocked="-99" HeavyAttack_Blocked="-99" NightRatio="-99"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-99" LightAttack_Blocked="-99" HeavyAttack_NotBlocked="-99" HeavyAttack_Blocked="-99" NightRatio="-99"/>
+		<Damage_Blood				LightAttack_NotBlocked="-99" LightAttack_Blocked="-99" HeavyAttack_NotBlocked="-99" HeavyAttack_Blocked="-99" NightRatio="-99"/>
+		<Damage_Stamina				LightAttack_NotBlocked="-99" LightAttack_Blocked="-99" HeavyAttack_NotBlocked="-99" HeavyAttack_Blocked="-99" NightRatio="-99"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>		<!-- Integer [0:Deactivated or 1:Activated or 2:Activated even if player is not on an obstacle] -->
+    </type>
+
+	<!--____________________________________ DEFAULT CONFIG ____________________________________________________-->	
+	<type name="ZombieBase">									<!-- KEEP THIS CLASS (ZombieBase) IN LAST POSITION -->
+        <Health_Points				Day="125" 	Night="125"/> 	<!-- Integer (Quantity) [1 to 10000] -->		
+        <Resistance_to_Bullets		Day="0.65" 	Night="0.65"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+        <Resistance_to_Melees		Day="0.85" 	Night="0.85"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+        <Resistance_to_Vehicles		Day="0.3" 	Night="0.3"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	<!-- Decimal (Ratio) [0.0 to infinite] -->
+		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/> 	<!-- Decimal (Ratio) [0.0 to 2.0] -->
+        <Resistance_to_HeadShots	Day="0.001" 	Night="0.001"/>	<!-- Decimal (Ratio) [0.0 to infinite] -->		
+		<Resist_to_Melee_HeadShots	Day="0.15" 	Night="0.15"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>		<!-- Integer [0 or 1] -->
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [0.0 to 3.0] -->
+		<Move_Speed_Max				Day="2.5" 	Night="2.5"/>	<!-- Decimal (Quantity) [1.0 to 3.0] -->		
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [-0.5 to 0.5 (0.0 to disable)] -->
+		<Animation_Type				Day="-9" 	Night="-9"/>	<!-- Integer [0, 1, 2, 3 or -9 (-9: random)] -->
+        <Chance_To_Spawn_Crawling	Day="0.05" 	Night="0.3"/>	<!-- Decimal (Ratio) [-1.0 to 1.0] -->		
+		<Can_Dodge					Day="0" 	Night="0"/>		<!-- Integer [0 or 1] -->
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>		<!-- Integer [0:Deactivated or 1:Activated] -->
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>		<!-- Integer [0:Not Immune or 1:Immune] -->
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>	<!-- Integer [0.0 to 2.0] -->
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/> <!-- Decimal (Ratio) [0.0-infinite] -->	
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="0.2" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="0.4" HeavyAttack_Blocked="0.2" NightRatio="0.2"/> <!-- Decimal (Ratio) [0.0-infinite] -->
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="-1"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="-1"  NightRatio="1.0"/> <!-- Decimal (Ratio) [0.0 to 1.0 or -1 to let vanilla system manage bleeding sources] -->		
+		<Damage_Blood				LightAttack_NotBlocked="0.2" LightAttack_Blocked="0.05" HeavyAttack_NotBlocked="0.2" HeavyAttack_Blocked="0.1" NightRatio="0.0"/> <!-- Integer (Quantity) [0-5000] -->
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="0.0"/> <!-- Integer (Quantity) [0-100] -->
+		<Vision_Distance_Ratio		Day="0.4" Night="0.4" WithBloodyHands="0.4" WithSpecialMask="0.4" MinimumRatioDistance="0.1"/> <!-- Decimal (Ratio) [0.0 - 1.0] -->
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>		<!-- Integer [0:No Backstabbed or 1: Backstabbed possible] -->
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/>		<!-- Integer [0: Don't Resist or 1: Restist] -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="0"		Night="0"/>		<!-- Integer [0 to infinite] (0: Zombie can't break doors, 2: zombie need two hit to break a door...) -->
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>		<!-- Integer [0:Deactivated or 1:Activated or 2:Activated even if player is not on an obstacle] -->
+    </type>
+	<!--________________________ DON'T ADD NEW CLASS AFTER DEFAULT CONFIG ________________________________-->
+</types>
+<!--  ___________ YOU CAN FIND DETAILED INSTRUCTIONS in PvZmoD_CustomisableZombies_HELP.txt file ___________  -->
+
+

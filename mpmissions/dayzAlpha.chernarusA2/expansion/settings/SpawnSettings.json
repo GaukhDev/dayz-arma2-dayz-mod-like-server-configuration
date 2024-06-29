@@ -1,0 +1,88 @@
+{
+    "m_Version": 7,
+    "SpawnLocations": [],
+    "StartingClothing": {
+        "EnableCustomClothing": 1,
+        "SetRandomHealth": 0,
+        "Headgear": [
+            "BaseballCap_Beige",
+            "BaseballCap_Black",
+            "BaseballCap_Blue"
+        ],
+        "Glasses": [],
+        "Masks": [],
+        "Tops": [
+            "Hoodie_Grey",
+            "Hoodie_Black"
+        ],
+        "Vests": [
+            "PoliceVest"
+        ],
+        "Gloves": [],
+        "Pants": [
+            "Jeans_Black",
+            "Jeans_Blue",
+            "Jeans_Grey",
+            "Jeans_Brown",
+            "Jeans_BlueDark"
+        ],
+        "Belts": [],
+        "Shoes": [
+            "HikingBootsLow_Black",
+            "HikingBootsLow_Beige",
+            "HikingBootsLow_Grey"
+        ],
+        "Armbands": [],
+        "Backpacks": [
+            "backpack_us_assault_Coyote"
+        ]
+    },
+    "EnableSpawnSelection": 0,
+    "SpawnOnTerritory": 1,
+    "StartingGear": {
+        "EnableStartingGear": 0,
+        "ApplyEnergySources": 1,
+        "SetRandomHealth": 1,
+        "UpperGear": [
+            {
+                "ClassName": "Rag",
+                "Quantity": 4,
+                "Attachments": []
+            },
+            {
+                "ClassName": "Apple",
+                "Quantity": -1,
+                "Attachments": []
+            }
+        ],
+        "PantsGear": [],
+        "BackpackGear": [],
+        "VestGear": [],
+        "PrimaryWeapon": {},
+        "SecondaryWeapon": {}
+    },
+    "UseLoadouts": 0,
+    "MaleLoadouts": [
+        {
+            "Loadout": "PlayerSurvivorLoadout",
+            "Chance": 1.0
+        }
+    ],
+    "FemaleLoadouts": [
+        {
+            "Loadout": "PlayerSurvivorLoadout",
+            "Chance": 1.0
+        }
+    ],
+    "SpawnHealthValue": 100.0,
+    "SpawnEnergyValue": 1000.0,
+    "SpawnWaterValue": 1000.0,
+    "EnableRespawnCooldowns": 0,
+    "RespawnCooldown": 120,
+    "TerritoryRespawnCooldown": 240,
+    "PunishMultispawn": 1,
+    "PunishCooldown": 120,
+    "PunishTimeframe": 300,
+    "CreateDeathMarker": 0,
+    "BackgroundImagePath": "DayZExpansion/SpawnSelection/GUI/textures/wood_background.edds"
+}

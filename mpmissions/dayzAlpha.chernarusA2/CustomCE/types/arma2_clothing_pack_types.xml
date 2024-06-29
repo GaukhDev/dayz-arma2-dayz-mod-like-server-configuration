@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- A2 Other -->
+<types>
+	<type name="A2GhilliePackNato">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2GhilliePackEast">
+		<nominal>0</nominal>
+		<lifetime>300</lifetime>
+		<restock>600</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier4"/> 
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2GhilliePackArctic">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2GhilliePackGeneric">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhilliePantsNato">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhilliePantsEast">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhilliePantsArctic">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhilliePantsGeneric">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhillieTopNato">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhillieTopEast">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhillieTopArctic">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhillieTopGeneric">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhillieHoodNato">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhillieHoodEast">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier4"/> 
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhillieHoodArctic">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="A2_GhillieHoodGeneric">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="CivilAssault_Woodland">
+		<nominal>0</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="backpack_us">
+		<nominal>2</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<tag name="floor"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="backpack_us_assault_Coyote">
+		<nominal>150</nominal>
+		<lifetime>10800</lifetime>
+		<restock>7200</restock>
+		<min>100</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<tag name="floor"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Farm"/>
+		<usage name="Industrial"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/> 
+		<value name="Tier1"/>
+	</type>
+	<type name="backpack_us_medical">
+		<nominal>40</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>35</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<tag name="floor"/>
+		<usage name="Military"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier2"/>
+		<value name="Tier1"/>
+	</type>
+	<type name="StaticX">
+		<nominal>2</nominal>
+		<lifetime>1800</lifetime>
+		<restock>600</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothing"/>
+		<tag name="floor"/> 
+		<usage name="Military"/>
+		<value name="Tier4"/>
+		<value name="Tier3"/>
+	</type>	
+</types>

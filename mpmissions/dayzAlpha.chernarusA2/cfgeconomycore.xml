@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<economycore>
+	<classes>
+<!--
+These are rootclasses to be used by economy.
+Do not forget to add attribute act="character", if root class represents character (player, infected, animal)
+Do not forget to add attribute act="car", if root class represents moveable vehicles
+-->
+		<rootclass name="DefaultWeapon" /> <!-- weapons -->
+		<rootclass name="DefaultMagazine" /> <!-- magazines -->
+		<rootclass name="Inventory_Base" /> <!-- inventory items -->
+		<rootclass name="HouseNoDestruct" reportMemoryLOD="no" /> <!-- houses, wrecks -->
+		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" /> <!-- player characters -->
+		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" /> <!-- infected, animals -->
+		<rootclass name="CarScript" act="car" reportMemoryLOD="no" /> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+	</classes>
+	<defaults>
+		<default name="dyn_radius" value="30" />
+		<default name="dyn_smin" value="0" />
+		<default name="dyn_smax" value="0" />
+		<default name="dyn_dmin" value="1" />
+		<default name="dyn_dmax" value="5" />
+		<default name="log_ce_loop" value="false"/>
+		<default name="log_ce_dynamicevent" value="false"/>
+		<default name="log_ce_vehicle" value="false"/>
+		<default name="log_ce_lootspawn" value="false"/>
+		<default name="log_ce_lootcleanup" value="false"/>
+		<default name="log_ce_lootrespawn" value="false"/>
+		<default name="log_ce_statistics" value="false"/>
+		<default name="log_ce_zombie" value="false"/>
+		<default name="log_storageinfo" value="false"/>
+		<default name="log_hivewarning" value="true"/>
+		<default name="log_missionfilewarning" value="true"/>
+		<default name="save_events_startup" value="true"/>
+		<default name="save_types_startup" value="true"/>
+	</defaults>
+	
+	<ce folder="CustomCE/types">
+		<file name="vanilla_animal_types.xml" type="types" />
+		<file name="vanilla_basebuilding_types.xml" type="types" />
+		<file name="vanilla_clothing_accessoire_types.xml" type="types" />
+		<file name="vanilla_clothing_backpack_types.xml" type="types" />
+		<file name="vanilla_clothing_face_types.xml" type="types" />
+		<file name="vanilla_clothing_hand_types.xml" type="types" />
+		<file name="vanilla_clothing_hat_types.xml" type="types" />
+		<file name="vanilla_clothing_pants_types.xml" type="types" />
+		<file name="vanilla_clothing_shoe_types.xml" type="types" />
+		<file name="vanilla_clothing_top_types.xml" type="types" />
+		<file name="vanilla_consumable_types.xml" type="types" />
+		<file name="vanilla_drink_types.xml" type="types" />
+		<file name="vanilla_explosive_throwable_types.xml" type="types" />
+		<file name="vanilla_food_types.xml" type="types" />
+		<file name="vanilla_industrial_types.xml" type="types" />
+		<file name="vanilla_medicine_types.xml" type="types" />
+		<file name="vanilla_prop_types.xml" type="types" />
+		<file name="vanilla_storage_types.xml" type="types" />
+		<file name="vanilla_survival_types.xml" type="types" />
+		<file name="vanilla_tool_types.xml" type="types" />
+		<file name="vanilla_vehicle_types.xml" type="types" />
+		<file name="vanilla_weapon_ammo_types.xml" type="types" />
+		<file name="vanilla_weapon_attachment_types.xml" type="types" />
+		<file name="vanilla_weapon_types.xml" type="types" />
+		<file name="vanilla_zombie_types.xml" type="types" />
+		<file name="advanced_weapon_scopes_types.xml" type="types" />
+		<file name="arma_remastered_weapon_pack_types.xml" type="types" />
+		<file name="arma2_acr_weapon_pack_types.xml" type="types" />
+		<file name="arma2_cheytac_m200_types.xml" type="types" />
+		<file name="arma2_clothing_pack_types.xml" type="types" />
+		<file name="base_building_plus_types.xml" type="types" />
+		<file name="boomlays_things_types.xml" type="types" />
+		<file name="building_fortifications_types.xml" type="types" />
+		<file name="car_cover_types.xml" type="types" />
+		<file name="cj187_more_items_types.xml" type="types" />
+		<file name="code_lock_types.xml" type="types" />
+		<file name="dayz_dog_types.xml" type="types" />
+		<file name="dayz_mod_food_and_drinks_types.xml" type="types" />
+		<file name="expansion_types.xml" type="types" />
+		<file name="flip_transport_types.xml" type="types" />
+		<file name="much_stuff_pack_types.xml" type="types" />
+		<file name="og_ghillie_types.xml" type="types" /> 
+		<file name="rag_baseitems_types.xml" type="types" />
+		<file name="solar_panel_power_system_types.xml" type="types" />
+		<file name="zen_leftovers_types.xml" type="types" /> 
+
+	</ce>
+
+	<ce folder="CustomCE/spawnabletypes">
+		<file name="dayz_bicycle_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+
+	<ce folder="CustomCE/events">
+		<file name="dayz_bicycle_events.xml" type="events" />
+		<file name="expansion_events.xml" type="events" />
+	</ce>
+
+	<!-- <ce folder="CustomCE/eventspawns">
+	</ce> -->
+</economycore>

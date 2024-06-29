@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+	<!-- Start Empty Food Items (Default persistence: 30 minutes) -->
+	<type name="Empty_SodaCan_Pipsi">
+        <nominal>350</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>250</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_SodaCan_Cola">
+        <nominal>350</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>250</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_SodaCan_Spite">
+        <nominal>100</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>50</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+        <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_SodaCan_Kvass">
+        <nominal>350</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>250</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Industrial"/>
+        <usage name="Town"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_SodaCan_Fronta">
+        <nominal>100</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>50</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+        <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_BoxCerealCrunchin">
+        <nominal>150</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>75</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Hunting"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Rice">
+        <nominal>250</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>150</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+        <usage name="Town"/>
+		<usage name="Medic"/>
+		<usage name="Farm"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_PowderedMilk">
+        <nominal>150</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>75</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Marmalade">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Honey">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Marmalade_NoLiquid">
+        <nominal>150</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>75</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Honey_NoLiquid">
+        <nominal>150</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>75</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Zagorky">
+        <nominal>150</nominal>
+        <lifetime>600</lifetime>
+        <restock>0</restock>
+        <min>75</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_ZagorkyChocolate">
+        <nominal>150</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>75</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+    <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_ZagorkyPeanuts">
+        <nominal>150</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>75</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+    <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_SaltySticks">
+        <nominal>150</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>75</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+    <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Crackers">
+        <nominal>150</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>75</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Chips">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+    <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_BakedBeansCan_Opened">
+        <nominal>350</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>250</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_PeachesCan_Opened">
+        <nominal>350</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>250</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_TacticalBaconCan_Opened">
+        <nominal>200</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>125</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Firefighter"/>
+    </type>
+	<type name="Empty_SpaghettiCan_Opened">
+        <nominal>350</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>250</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_SardinesCan_Opened">
+        <nominal>200</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>125</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_TunaCan_Opened">
+        <nominal>200</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>125</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_DogFoodCan_Opened">
+        <nominal>200</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>125</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_CatFoodCan_Opened">
+        <nominal>200</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>125</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_PorkCan_Opened">
+        <nominal>200</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>125</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Lunchmeat_Opened">
+        <nominal>200</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>125</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_UnknownFoodCan_Opened">
+        <nominal>400</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>300</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_Pate_Opened">
+        <nominal>150</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>100</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<type name="Empty_BrisketSpread_Opened">
+        <nominal>200</nominal>
+        <lifetime>1800</lifetime>
+        <restock>600</restock>
+        <min>100</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>80</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Coast"/>
+		<usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+		<usage name="Medic"/>
+		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Firefighter"/>
+		<usage name="Village"/>
+    </type>
+	<!-- End Empty Food Items -->
+	<!-- Start Used Medical Items (Default persistence: 30 minutes) -->
+	<type name="Used_SalineBagIV">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+	<type name="Used_BloodBagIV">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+	<type name="Used_Morphine">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
+    <type name="Used_Epinephrine">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
+	<type name="Used_AntiChemInjector">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+	<!-- End Used Medical Items -->
+</types>

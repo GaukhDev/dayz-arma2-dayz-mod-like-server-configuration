@@ -1,0 +1,23 @@
+{
+    "m_Version": 7,
+    "Safezone": 0,
+    "AdminTools": 1,
+    "ExplosionDamageSystem": 1,
+    "VehicleCarKey": 1,
+    "VehicleTowing": 1,
+    "VehicleLockPicking": 0,
+    "VehicleDestroyed": 1,
+    "VehicleAttachments": 1,
+    "VehicleEnter": 1,
+    "VehicleLeave": 1,
+    "VehicleDeleted": 1,
+    "VehicleEngine": 1,
+    "Killfeed": 1,
+    "SpawnSelection": 1,
+    "Chat": 0,
+    "LogToScripts": 0,
+    "LogToADM": 0,
+    "Garage": 1,
+    "VehicleCover": 1,
+    "EntityStorage": 1
+}
